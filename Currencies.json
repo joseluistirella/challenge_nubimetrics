@@ -1,0 +1,156 @@
+[
+  {
+    "id": "ARS",
+    "symbol": "$",
+    "description": "Peso argentino",
+    "decimal_places": 2,
+    "to_dolar": 107.38
+  },
+  {
+    "id": "BOB",
+    "symbol": "Bs",
+    "description": "Boliviano",
+    "decimal_places": 2,
+    "to_dolar": 6.96
+  },
+  {
+    "id": "BRL",
+    "symbol": "R$",
+    "description": "Real",
+    "decimal_places": 2,
+    "to_dolar": 5.0499
+  },
+  {
+    "id": "CLF",
+    "symbol": "UF",
+    "description": "Unidad de Fomento",
+    "decimal_places": 2,
+    "to_dolar": 0.02499722
+  },
+  {
+    "id": "CLP",
+    "symbol": "$",
+    "description": "Peso Chileno",
+    "decimal_places": 0,
+    "to_dolar": 787.05
+  },
+  {
+    "id": "COP",
+    "symbol": "$",
+    "description": "Peso colombiano",
+    "decimal_places": 0,
+    "to_dolar": 3913.79
+  },
+  {
+    "id": "CRC",
+    "symbol": "₡",
+    "description": "Colones",
+    "decimal_places": 2,
+    "to_dolar": 644.91
+  },
+  {
+    "id": "CUC",
+    "symbol": "CUC",
+    "description": "Peso Cubano Convertible",
+    "decimal_places": 2,
+    "to_dolar": 1200.0
+  },
+  {
+    "id": "CUP",
+    "symbol": "$",
+    "description": "Peso Cubano",
+    "decimal_places": 2,
+    "to_dolar": 25.0
+  },
+  {
+    "id": "DOP",
+    "symbol": "$",
+    "description": "Peso Dominicano",
+    "decimal_places": 2,
+    "to_dolar": 55.3073
+  },
+  {
+    "id": "EUR",
+    "symbol": "€",
+    "description": "Euro",
+    "decimal_places": 2,
+    "to_dolar": 0.8958
+  },
+  {
+    "id": "GTQ",
+    "symbol": "Q",
+    "description": "Quetzal Guatemalteco",
+    "decimal_places": 2,
+    "to_dolar": 7.7128
+  },
+  {
+    "id": "HNL",
+    "symbol": "L",
+    "description": "Lempira",
+    "decimal_places": 0,
+    "to_dolar": 24.4969
+  },
+  {
+    "id": "MXN",
+    "symbol": "$",
+    "description": "Peso Mexicano",
+    "decimal_places": 2,
+    "to_dolar": 20.6525
+  },
+  {
+    "id": "NIO",
+    "symbol": "C$",
+    "description": "Córdoba",
+    "decimal_places": 0,
+    "to_dolar": 35.6271
+  },
+  {
+    "id": "PAB",
+    "symbol": "B/.",
+    "description": "Balboa",
+    "decimal_places": 2,
+    "to_dolar": 1.0
+  },
+  {
+    "id": "PEN",
+    "symbol": "S/",
+    "description": "Soles",
+    "decimal_places": 2,
+    "to_dolar": 3.761
+  },
+  {
+    "id": "PYG",
+    "symbol": "₲",
+    "description": "Guaraní",
+    "decimal_places": 0,
+    "to_dolar": 7023.46
+  },
+  {
+    "id": "USD",
+    "symbol": "U$S",
+    "description": "Dólar",
+    "decimal_places": 2,
+    "to_dolar": 1.0
+  },
+  {
+    "id": "UYU",
+    "symbol": "$",
+    "description": "Peso Uruguayo",
+    "decimal_places": 2,
+    "to_dolar": 43.7
+  },
+  {
+    "id": "VEF",
+    "symbol": "Bs.",
+    "description": "Bolivar fuerte",
+    "decimal_places": 2,
+    "to_dolar": 403.0
+  },
+  {
+    "id": "VES",
+    "symbol": "Bs.",
+    "description": "Bolivar Soberano",
+    "decimal_places": 2,
+    "to_dolar": 403.0
+  }
+]

@@ -1,0 +1,51 @@
+version: '3.4'
+
+networks:
+  api-env:
+    driver: bridge
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8080:80
+    environment:
+      - MONGO_DB=mongodb://mongodb:27017
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+      - SAVE_PATH=/app/output
+    volumes:
+      - ~/.aspnet/https:/https:ro
+      - ./output:/app/output
+    depends_on:
+      - mongodb
+    networks:
+      - api-env
+  
+  api-test:
+    build:
+      context: .
+      dockerfile: Dockerfile.Tests
+    networks:
+      - api-env
+    volumes:
+      - ~/.aspnet/https:/https:ro
+    depends_on:
+      - mongodb
+      - api
+  
+  mongodb:
+    image : mongo
+    container_name: mongodb
+    environment:
+      - PUID=1000
+      - PGID=1000
+    volumes:
+      - ./database:/data/db
+    ports:
+      - 27017:27017
+    restart: unless-stopped
+    networks:
+      - api-env

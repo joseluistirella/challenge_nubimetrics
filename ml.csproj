@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="FluentAssertions" Version="6.5.1" />
+    <PackageReference Include="FluentValidation" Version="10.3.6" />
+    <PackageReference Include="Flurl" Version="3.0.4" />
+    <PackageReference Include="Flurl.Http" Version="3.2.2" />
+    <PackageReference Include="mediatr" Version="10.0.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="6.0.2" />
+    <PackageReference Include="MongoDB.Driver" Version="2.14.1" />
+    <PackageReference Include="moq" Version="4.16.1" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Exceptions\User" />
+    <Folder Include="output" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="UnitTests\obj\project.assets.json" />
+    <_ContentIncludedByDefault Remove="UnitTests\obj\project.packagespec.json" />
+    <_ContentIncludedByDefault Remove="UnitTests\obj\UnitTests.csproj.nuget.dgspec.json" />
+    <_ContentIncludedByDefault Remove="UnitTests\obj\Debug\net6.0\MvcTestingAppManifest.json" />
+    <_ContentIncludedByDefault Remove="UnitTests\bin\Debug\net6.0\appsettings.Development.json" />
+    <_ContentIncludedByDefault Remove="UnitTests\bin\Debug\net6.0\appsettings.json" />
+    <_ContentIncludedByDefault Remove="UnitTests\bin\Debug\net6.0\ml.deps.json" />
+    <_ContentIncludedByDefault Remove="UnitTests\bin\Debug\net6.0\ml.runtimeconfig.json" />
+    <_ContentIncludedByDefault Remove="UnitTests\bin\Debug\net6.0\MvcTestingAppManifest.json" />
+    <_ContentIncludedByDefault Remove="UnitTests\bin\Debug\net6.0\UnitTests.deps.json" />
+    <_ContentIncludedByDefault Remove="UnitTests\bin\Debug\net6.0\UnitTests.runtimeconfig.json" />
+    <_ContentIncludedByDefault Remove="UnitTests\bin\Debug\net6.0\UnitTests\obj\project.assets.json" />
+    <_ContentIncludedByDefault Remove="UnitTests\bin\Debug\net6.0\UnitTests\obj\UnitTests.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
+
+</Project>
